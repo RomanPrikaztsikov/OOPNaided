@@ -18,5 +18,6 @@
     {
         Console.WriteLine("Tere! Mina olen " + Nimi);
     }
+    public abstract void Mida_teeb();
 }
 

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,10 +10,20 @@ namespace OOPNaided.inimene
     {
         public string Firma = "PrikaztsikovOU";
 
-        public void sonum()
+        public override void BipBop()
         {
-            Console.WriteLine($"See on Traktor see varv on: {Varv} see number on: {Number} See Firma on: {Firma}");
+            Console.WriteLine("trrrrrrr");
+        }
+
+        public override void KuvaInfo()
+        {
+            Console.WriteLine($"Traktori info: varv = {Varv}, number = {Number}, firma = {Firma}");
+        }
+
+        public override void Liigu()
+        {
+            Console.WriteLine("Aeglaselt");
         }
     }
-
 }
+

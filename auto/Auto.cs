@@ -1,12 +1,18 @@
-﻿public class Auto
+using System;
+
+namespace OOPNaided
 {
-    public string Varv;
-    public int Number;
-
-
-    public void BipBop()
+    public abstract class Auto
     {
-        Console.WriteLine($"See on auto see varv on: {Varv} see number on: {Number}");
+        public string Varv;
+        public int Number;
+
+        public abstract void BipBop();
+        public abstract void KuvaInfo();
+
+        public abstract void Liigu();
+
+
     }
 
 }

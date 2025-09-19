@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +10,20 @@ namespace OOPNaided.inimene
     {
         public int Kiirus = 450;
 
-        public void sonum()
+        public override void BipBop()
         {
-            Console.WriteLine($"See on Sportauto see varv on: {Varv} see number on: {Number} see kiirus on: {Kiirus}");
+            Console.WriteLine("brrrr");
+        }
+
+        public override void KuvaInfo()
+        {
+            Console.WriteLine($"Sportauto info: varv = {Varv}, number = {Number}, kiirus = {Kiirus}");
+        }
+
+        public override void Liigu()
+        {
+            Console.WriteLine("Kiiresti");
         }
     }
 }
+

@@ -1,0 +1,4 @@
+﻿auto,5.5,100
+jalgratas,30
+buss,8.0,200,25
+elektriratas,1.2,50
